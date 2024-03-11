@@ -1,9 +1,9 @@
 **OpenKart Ecommerce Application**
-**
-Techologies Used** 
 
-HTML
-CSS
-JavaScript
-PHP
-MySQL
+**Techologies Used**:
+
+HTML,
+CSS,
+JavaScript,
+PHP,
+MySQL,
