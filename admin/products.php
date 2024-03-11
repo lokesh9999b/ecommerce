@@ -13,26 +13,23 @@ session_start();
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body style="margin-bottom:200px">
     <!--Header-->
     <?php
-    include 'includes/header_menu.php';
-    include 'includes/check-if-added.php';
-
-  
+    include 'header_menu.php';
+    // include 'check-if-added.php';
     ?>
-
     <!--Header ends-->
     <div id="content">
         <div id="bg" class=" ">
             <div class="container" style="padding-top:150px">
                 <div class="mx-auto p-5 text-white" id="banner_content" style="border-radius: 0.5rem;">
-                    <h1>We sell Happiness :)</h1>
-                    <p>Flat 40% OFF on premium brands </p>
-                    <a href="products.php" class="btn btn-warning btn-lg text-white">Shop Now</a>
+                    <h1>Hello <?php echo $_SESSION['name']; ?>!</h1>
+                    <p>Welcome To OpenKart </p>
+                    <!-- <a href="products.php" class="btn btn-warning btn-lg text-white">Shop Now</a> -->
 
                 </div>
             </div>
@@ -40,13 +37,13 @@ session_start();
         </div>
     </div>
     <div class="text-center pt-4 h3">
-        * Be fashionable Men *
+        * View Products Data*
     </div>
     <!--menu highlights start-->
     <div class="container pt-3">
         <div class="row text-center ">
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#watch"> <img src="images/watch.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
+                <a href="watch.php"> <img src="../images/watch.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
                     <!-- https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fm=jpg&w=400&fit=max-->
                     <div class="h5 pt-3 font-weight-bolder">
                         Watches
@@ -54,24 +51,24 @@ session_start();
                 </a>
             </div>
             <div class="col-6 col-md-3 py-3 ">
-                <a href="products.php#shirt">
-                    <img src="images/clothing.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem">
+                <a href="shirts.php">
+                    <img src="../images/clothing.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem">
                     <div class="h5 pt-3 font-weight-bolder">
                         Clothing
                     </div>
                 </a>
             </div>
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#shoes">
-                    <img src="images/shoes.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
+                <a href="shoes.php">
+                    <img src="../images/shoes.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
                     <div class="h5 pt-3 font-weight-bolder">
                         Shoes
                     </div>
                 </a>
             </div>
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#headphones">
-                    <img src="images/headphones.jpg" class="img-fluid  " alt="" style="border-radius:0.5rem">
+                <a href="speakers.php">
+                    <img src="../images/headphones.jpg" class="img-fluid  " alt="" style="border-radius:0.5rem">
                     <div class="h5 pt-3 font-weight-bolder">
                         Headphones
                     </div>
@@ -90,7 +87,7 @@ session_start();
 
     <!--menu highlights end-->
     <!--footer -->
-    <?php include 'includes/footer.php' ?>
+    <?php include 'footer.php' ?>
     <!--footer end-->
 
 

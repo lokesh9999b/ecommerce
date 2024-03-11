@@ -22,17 +22,24 @@
         <li class="nav-item"><a href="index.php" class="nav-link">Offers</a></li>
 
         <?php
-        if (isset($_SESSION['email'])) {
+        if (isset($_SESSION['jwt_token'])) {
         ?>
           <li class="nav-item"><a href="cart.php" class="nav-link">Cart</a></li>
         <?php
         }
         ?>
+        <?php
+        if (isset($_SESSION['jwt_token'])){
+           ?>
         <li class="nav-item"><a href="details1.php" class="nav-link">My Profile</a></li>
+        <?php
+      }
+      ?>
+     
       </ul>
 
       <?php
-      if (isset($_SESSION['email'])) {
+      if (isset($_SESSION['jwt_token'])) {
       ?>
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item"><a href="logout_script.php" class="nav-link"><i class="fa fa-sign-out"></i>Logout</a></li>
@@ -42,7 +49,7 @@
       } else {
       ?>
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item "><a href="#signup" class="nav-link" data-toggle="modal"><i class="fa fa-user"></i> sign In</a></li>
+          <li class="nav-item "><a href="#signup" class="nav-link" data-toggle="modal"><i class="fa fa-user"></i> sign Up</a></li>
           <li class="nav-item "><a href="#login" class="nav-link" data-toggle="modal"><i class="fa fa-sign-in"></i> Login</a></li>
         </ul>
       <?php
@@ -114,6 +121,10 @@
           <div class="form-group">
             <label for="pwd">Password:</label>
             <input type="password" class="form-control" id="pwd" name="password" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile:</label>
+            <input type="text" class="form-control" id="mbl" name="mobile" placeholder="Mobile No" required>
           </div>
 
           <div class="form-row">
