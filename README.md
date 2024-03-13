@@ -54,6 +54,9 @@ The database schema I have designed for the Ecommerce Apllication as shown in th
 
 On our user registration page, create your account in just a few simple steps by entering required data as shown in the below picture.
 
+![Screenshot (292)](https://github.com/lokesh9999b/ecommerce/assets/87296735/f77ccc06-b088-4754-b084-03b3d0dc1a56)
+
+
 
 ### Login Page
 
