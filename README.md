@@ -6,7 +6,7 @@ Welcome to our E-Commerce Web Application project! This README file contains com
 
 ## Table Of Contents
 
- - [Introduction](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Introduction](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#introduction)
  - [Features](https://github.com/matiassingers/awesome-readme)
  - [Technologies Used](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   - [Database Schema And Setup Instructions](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
