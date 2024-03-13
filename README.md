@@ -48,8 +48,8 @@ The database schema I have designed for the Ecommerce Apllication as shown in th
 - After creating the databse ecommerce now import the ecommerce.sql file into the ecommerce data base 
 - Now we will get all the tables and schema into our local Apache server.
 - Now we have to connect the database to our application, By changing the username and passwords in common.php file. 
-## Application View
-
+# Application View
+## User Login
 ### User Registration Page
 
 On our user registration page, create your account in just a few simple steps by entering required data as shown in the below picture.
@@ -60,4 +60,36 @@ On our user registration page, create your account in just a few simple steps by
 On our login page, access your account securely to explore our products and manage your shopping experience effortlessly.
 
 
-### 
+### Home Page
+On our home page, We have navigation bar, Products category.
+
+### Products Page
+
+On our products page we have different product details like Product image, Product name, Product price.
+
+### User Profile 
+
+On the user profile page we will get the deatils of the logined user details like Name, Email, Phone, etc.
+
+### Cart
+On this page we will view the products he have added to the cart, And total price for all the products we have added into the cart and we have a coform button to place the order for the products.
+
+## Admin Login
+### Login Page
+On this page only admin can access this page.
+
+### Home Page
+On admin home page, We found navigation bar, Products category for edit the product details.
+
+### Product Edit Page
+
+On this product edit page the admin can able to edit the product data, And able to delete the product and add the new product in that product category.
+
+### Users List
+On this page we can able to view all the users in the Application.
+
+### Orders 
+
+On this page the Admin can able to view all the orders placed by the users.
+
+
