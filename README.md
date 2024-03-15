@@ -10,7 +10,7 @@ Welcome to our E-Commerce Web Application project! This README file contains com
  - [Features](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#features)
  - [Technologies Used](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#technologies-used)
   - [Database Schema And Setup Instructions](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#database-schema-and-setup-instructions)
-  - [Application Preview](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#application-view)
+  - [Application Preview](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#application-preview)
    - [Deployment on AWS EC2](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#deployment-on-aws-ec2)
 
 
