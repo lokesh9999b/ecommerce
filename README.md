@@ -11,7 +11,7 @@ Welcome to our E-Commerce Web Application project! This README file contains com
  - [Technologies Used](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#technologies-used)
   - [Database Schema And Setup Instructions](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#database-schema-and-setup-instructions)
   - [Application Preview](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#application-view)
-   - [Deployment on AWS EC2](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+   - [Deployment on AWS EC2](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#deployment-on-aws-ec2)
 
 
 
