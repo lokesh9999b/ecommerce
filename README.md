@@ -39,6 +39,7 @@ This E-Commerce Web Application is designed to provide users with a seamless sho
 
  ### Database Schema 
 The database schema I have designed for the Ecommerce Apllication as shown in the below picture
+
 ![schema](https://github.com/lokesh9999b/ecommerce/assets/87296735/532dc027-7b99-4e43-a986-96be4913a18a)
 
 
