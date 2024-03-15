@@ -124,4 +124,51 @@ On this page the Admin can able to view all the orders placed by the users.
 ![Screenshot (311)](https://github.com/lokesh9999b/ecommerce/assets/87296735/0b9e82d0-7c05-4281-a9fd-f35de1b036c9)
 
 
+## Deployment on AWS EC2
+
+
+
+- To deploy PHP application along with PHPMyAdmin on an AWS EC2 instance, I have followed these steps
+
+### Launch an EC2 Instance
+- I have used the AWS Management Console to launch an EC2 instance, And selected ubuntu AMI.
+### Install Apache, MySQL, and PHP
+- Connect to the EC2 instance using SSH and install Apache, MySQL, and PHP
+```http
+  sudo apt update
+```
+```http
+  sudo apt install apache2 php mysql-server php-mysql
+```
+- Install PHPMyAdmin to manage MySQL database
+```http
+  sudo apt install phpmyadmin
+```
+- During installation, choose Apache as the web server to configure PHPMyAdmin to work with Apache
+
+- After installation, configure PHPMyAdmin to work with  MySQL database
+```http
+  sudo nano /etc/apache2/apache2.conf
+```
+```http
+   Include /etc/phpmyadmin/apache.conf
+```
+- Restart Apache to apply the changes
+```http
+  sudo systemctl restart apache2
+```
+### To Access PHPMyAdmin
+- PHPMyAdmin should now be accessible at  http://3.108.242.180/phpmyadmin/
+
+- Log in using MySQL username and password as follows
+- usernmame: newuser
+- Password: lokesh999
+### Deploy Your PHP Application
+- Upload PHP application files to the /var/www/html directory
+### To Access Application
+
+- Application can be accessible at http://3.108.242.180/
+
+
+
 
