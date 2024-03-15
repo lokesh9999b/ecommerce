@@ -164,8 +164,8 @@ On this page the Admin can able to view all the orders placed by the users.
 - PHPMyAdmin should now be accessible at  http://3.108.242.180/phpmyadmin/
 
 - Log in using MySQL username and password as follows
-- usernmame: newuser
-- Password: lokesh999
+- **usernmame**: newuser
+- **Password**: lokesh999
 ### Deploy Your PHP Application
 - Upload PHP application files to the /var/www/html directory
 ### To Access Application
