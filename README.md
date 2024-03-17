@@ -138,27 +138,27 @@ On this page the Admin can able to view all the orders placed by the users.
 ### Install Apache, MySQL, and PHP
 - Connect to the EC2 instance using SSH and install Apache, MySQL, and PHP
 ```
-  sudo apt update
+sudo apt update
 ```
 ```
-  sudo apt install apache2 php mysql-server php-mysql
+sudo apt install apache2 php mysql-server php-mysql
 ```
 - Install PHPMyAdmin to manage MySQL database
 ```
-  sudo apt install phpmyadmin
+sudo apt install phpmyadmin
 ```
 - During installation, choose Apache as the web server to configure PHPMyAdmin to work with Apache
 
 - After installation, configure PHPMyAdmin to work with  MySQL database
 ```
-  sudo nano /etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2.conf
 ```
 ```
-   Include /etc/phpmyadmin/apache.conf
+Include /etc/phpmyadmin/apache.conf
 ```
 - Restart Apache to apply the changes
 ```
-  sudo systemctl restart apache2
+sudo systemctl restart apache2
 ```
 ### To Access PHPMyAdmin
 - PHPMyAdmin should now be accessible at  http://3.108.242.180/phpmyadmin/
@@ -166,11 +166,53 @@ On this page the Admin can able to view all the orders placed by the users.
 - Log in using MySQL username and password as follows
 - **usernmame**: newuser
 - **Password**: lokesh999
-### Deploy Your PHP Application
+### Upload PHP Application in Ubuntu ec2 Instance
 - Upload PHP application files to the /var/www/html directory
+- To deploy application files we have to follow below mentioned steps:
+```
+sudo su
+```
+
+```
+yum update
+```
+
+```
+mkdir app
+```
+
+```
+wget "github repository link"
+```
+
+```
+ls -lrt
+```
+
+```
+unzip zipfile name
+```
+
+```
+cd Folder name
+```
+```
+mv * /var/www/html
+```
+
+- To list out application files we can use the following command
+- 
+```
+ls -lrt
+```
+
+- In this way we can upload application files into Ec2 instance
 ### To Access Application
 
-- Application can be accessible at http://3.108.242.180/admin
+- Application can be accessible at
+- **User Login**: http://3.108.242.180    
+  
+- **Admin Login**: http://3.108.242.180/admin
 - Admin Login Credientials:
 - **Username**: praneeth
 - **Password**: 1234
