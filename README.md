@@ -137,27 +137,27 @@ On this page the Admin can able to view all the orders placed by the users.
 - I have used the AWS Management Console to launch an EC2 instance, And selected ubuntu AMI.
 ### Install Apache, MySQL, and PHP
 - Connect to the EC2 instance using SSH and install Apache, MySQL, and PHP
-```http
+```
   sudo apt update
 ```
-```http
+```
   sudo apt install apache2 php mysql-server php-mysql
 ```
 - Install PHPMyAdmin to manage MySQL database
-```http
+```
   sudo apt install phpmyadmin
 ```
 - During installation, choose Apache as the web server to configure PHPMyAdmin to work with Apache
 
 - After installation, configure PHPMyAdmin to work with  MySQL database
-```http
+```
   sudo nano /etc/apache2/apache2.conf
 ```
-```http
+```
    Include /etc/phpmyadmin/apache.conf
 ```
 - Restart Apache to apply the changes
-```http
+```
   sudo systemctl restart apache2
 ```
 ### To Access PHPMyAdmin
