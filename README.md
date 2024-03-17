@@ -170,7 +170,10 @@ On this page the Admin can able to view all the orders placed by the users.
 - Upload PHP application files to the /var/www/html directory
 ### To Access Application
 
-- Application can be accessible at http://3.108.242.180/
+- Application can be accessible at http://3.108.242.180/admin
+- Admin Login Credientials:
+- **Username**: praneeth
+- **Password**: 1234
 
 
 
