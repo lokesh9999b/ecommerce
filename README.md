@@ -13,7 +13,7 @@ Welcome to our E-Commerce Web Application project! This README file contains com
   - [Application Preview](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#application-preview)
    - [Deployment on AWS EC2](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#deployment-on-aws-ec2)
    - [Access PHP Myadmin](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#to-access-phpmyadmin)
-   - [Access Deployed Application](https://github.com/lokesh9999b/ecommerce/edit/main/README.md#to-access-application)
+   - [Access Deployed Application](https://github.com/lokesh9999b/ecommerce/blob/main/README.md#to-access-application)
 
 
 
