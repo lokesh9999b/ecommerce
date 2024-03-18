@@ -203,7 +203,7 @@ mv * /var/www/html
 ```
 
 - To list out application files we can use the following command
-- 
+  
 ```
 ls -lrt
 ```
